@@ -1,10 +1,13 @@
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
   publish = "server/public"
 
 [build.environment]
   NODE_VERSION = "18"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
 
 [[redirects]]
   from = "/api/*"
@@ -15,6 +18,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-[functions]
-  node_bundler = "esbuild"

@@ -22,10 +22,5 @@
       "src": "/.*",
       "dest": "/server/public/index.html"
     }
-  ],
-  "functions": {
-    "server/index.ts": {
-      "includeFiles": "server/public/**"
-    }
-  }
+  ]
 }

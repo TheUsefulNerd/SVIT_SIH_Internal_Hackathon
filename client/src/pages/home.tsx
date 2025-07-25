@@ -304,7 +304,7 @@ export default function Home() {
                     Click below to access the official registration form and begin your journey to SIH 2025
                   </p>
                  <a
-                    href="https://forms.gle/YOUR_GOOGLE_FORM_ID"
+                    href="https://forms.gle/SjVnkwewqAASakyU7"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
